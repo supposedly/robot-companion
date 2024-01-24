@@ -1,4 +1,5 @@
 # Robot companion
+![Diagram and images](https://github.com/supposedly/robot-companion/assets/32081933/46e5e929-57b4-488f-88bc-83796a6248c7)
 
 This code controls a robot running on two Arduinos communicating over SoftwareSerial: a Mega board to control its
 motors and display, and an Uno board to control its environment sensors.
