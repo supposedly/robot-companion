@@ -2,7 +2,8 @@
 ![Diagram and images](https://github.com/supposedly/robot-companion/assets/32081933/46e5e929-57b4-488f-88bc-83796a6248c7)
 
 This code controls a robot running on two Arduinos communicating over SoftwareSerial: a Mega board to control its
-motors and display, and an Uno board to control its environment sensors.
+motors and display, and an Uno board to control its environment sensors. I made this with a partner who was in charge
+of designing and assembling the robot's chassis and physical internals.
 
 At a high level, the Uno continuously streams sensor data to the Mega so it knows to update the display or the motors,
 which it does by sending them "commands" that take different overwrite priorities based on the source of the data
