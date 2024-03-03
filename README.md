@@ -17,7 +17,7 @@ which it does by sending them "commands" that take different overwrite prioritie
 - Sleep ("Zzz" emote) and stop moving if too dark.
 - Sweat if too hot. Shiver if too cold.
 
-## File structure and idiosyncrasies
+## File structure and quirks
 The Arduino extension for VSCode lets you use a dropdown to easily select which .ino file you want to upload.
 Unfortunately, the dropdown also includes all .cpp files, even though Arduinos are only "supposed" to use .ino.
 In order to get around that and stop clicking the wrong file all the time, we decided to just name everything
